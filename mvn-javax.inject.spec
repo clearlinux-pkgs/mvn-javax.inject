@@ -4,10 +4,11 @@
 #
 Name     : mvn-javax.inject
 Version  : 1
-Release  : 1
-URL      : https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-Source0  : https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-Source1  : https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+Release  : 2
+URL      : https://github.com/javax-inject/javax-inject/archive/1.tar.gz
+Source0  : https://github.com/javax-inject/javax-inject/archive/1.tar.gz
+Source1  : https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+Source2  : https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -30,10 +31,10 @@ data components for the mvn-javax.inject package.
 
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/javax/inject/javax.inject/1
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/javax/inject/javax.inject/1
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/javax/inject/javax.inject/1
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/javax/inject/javax.inject/1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/javax/inject/javax.inject/1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/javax/inject/javax.inject/1
 
 
 %files
