@@ -4,7 +4,7 @@
 #
 Name     : mvn-javax.inject
 Version  : 1
-Release  : 2
+Release  : 3
 URL      : https://github.com/javax-inject/javax-inject/archive/1.tar.gz
 Source0  : https://github.com/javax-inject/javax-inject/archive/1.tar.gz
 Source1  : https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
